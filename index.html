@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circle of Care | Bereavement Support</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>Care After Loss</h1>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#model">Care Model</a>
+          <a href="#questionnaire">Questionnaire</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h2>Walking With People Through Grief</h2>
+      <p>
+        A church-based bereavement care system designed to provide structured,
+        compassionate, and long‑term support for individuals and families
+        experiencing loss.
+      </p>
+      <button class="btn">Learn More</button>
+    </section>
+
+    <section id="about">
+      <h3>About the Program</h3>
+      <p>
+        The Care After Loss system helps churches move from short-term funeral
+        support to ongoing, intentional care. By understanding age differences
+        and stages of grief, the church provides personalized emotional,
+        spiritual, and community-based support.
+      </p>
+    </section>
+
+    <section id="model">
+      <h3>Our Care Model</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Immediate Care</h4>
+          <p>Prayer, presence, and practical support during early loss.</p>
+        </div>
+        <div class="card">
+          <h4>Community Support</h4>
+          <p>Mentorship, visits, and fellowship inclusion.</p>
+        </div>
+        <div class="card">
+          <h4>Structured Follow‑Up</h4>
+          <p>
+            Check-ins at regular intervals after both during the healing period
+            and after.
+          </p>
+        </div>
+        <div class="card">
+          <h4>Healing Support</h4>
+          <p>Support groups, counseling referrals, and spiritual guidance.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="questionnaire">
+      <h3>Care Questionnaire</h3>
+      <div class="question-box">
+        <p>• How long has it been since your loss?</p>
+        <p>• What type of support would help you most right now?</p>
+        <p>• How supported do you currently feel?</p>
+        <p>• Would you like someone from the care team to reach out?</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Contact the Care Team</h3>
+      <p>
+        If you or someone you know needs support, please reach out using the
+        details below.
+      </p>
+
+      <div class="contact-card">
+        <h4>Circle of Care Ministry</h4>
+        <p>
+          <strong>📍 Address:</strong>
+        </p>
+        <p><strong>📞 Phone:</strong></p>
+        <p><strong>✉️ Email:</strong></p>
+        <p>
+          <strong>🕒 Office Hours:</strong>
+        </p>
+        <!-- Monday – Friday, 9:00 AM – 4:00 PM -->
+      </div>
+    </section>
+
+    <footer>© 2026 Parklands Baptist Church</footer>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
