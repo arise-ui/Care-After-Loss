@@ -1,20 +1,22 @@
-/* ===== RESET ===== */
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== BODY ===== */
+/* BODY */
 body {
   font-family: "Inter", sans-serif;
   background: #f4f9f7;
   color: #1c2b28;
   line-height: 1.6;
-  padding-top: 80px; /* prevents navbar overlap */
+  padding-top: 80px;
 }
 
-/* ===== HEADER / NAVBAR ===== */
+/* HEADER and NAVBAR */
 header {
   position: fixed;
   top: 0;
@@ -54,7 +56,7 @@ nav h1 {
   color: white;
 }
 
-/* ===== NAV LINKS ===== */
+/* NAV LINKS  */
 .nav-links a {
   margin-left: 22px;
   text-decoration: none;
@@ -68,7 +70,7 @@ nav h1 {
   text-shadow: 0 0 6px rgba(255, 209, 102, 0.6);
 }
 
-/* ===== HERO ===== */
+/*  HERO  */
 .hero {
   text-align: center;
   padding: 120px 20px;
@@ -90,7 +92,7 @@ nav h1 {
   color: #e4f5f1;
 }
 
-/* ===== BUTTON ===== */
+/* BUTTON */
 .btn {
   margin-top: 28px;
   padding: 14px 26px;
@@ -108,7 +110,7 @@ nav h1 {
   box-shadow: 0 12px 28px rgba(255, 183, 3, 0.45);
 }
 
-/* ===== VERSE ===== */
+/* BIBLE VERSE */
 .verse {
   display: flex;
   justify-content: center;
@@ -139,7 +141,7 @@ nav h1 {
   font-weight: 600;
 }
 
-/* ===== SECTIONS ===== */
+/*SECTIONS  */
 section {
   max-width: 1100px;
   margin: auto;
@@ -153,7 +155,7 @@ h3 {
   color: #145c4f;
 }
 
-/* GOLD LINE UNDER TITLES */
+/* GOLD LINE FOR TITLES */
 h3::after {
   content: "";
   display: block;
@@ -172,7 +174,7 @@ h3::after {
   margin-top: 30px;
 }
 
-/* ===== CARDS ===== */
+/* ARDS */
 .card {
   background: white;
   padding: 28px;
@@ -200,7 +202,7 @@ h3::after {
   color: #4f6360;
 }
 
-/* ===== QUESTION BOX ===== */
+/* QUESTIONNARE*/
 .question-box {
   background: white;
   padding: 28px;
@@ -209,7 +211,7 @@ h3::after {
   border-left: 6px solid #ffb703;
 }
 
-/* ===== FUNDRAISING ===== */
+/* FUNDRAISING  */
 #fundraising {
   text-align: center;
   background: linear-gradient(135deg, #fff4d6, #ffe19c);
@@ -221,7 +223,7 @@ h3::after {
   color: #5c4a2d;
 }
 
-/* ===== CONTACT ===== */
+/*  CONTACT */
 .contact {
   text-align: center;
   background: #f4f9f7;
@@ -248,7 +250,7 @@ h3::after {
   font-size: 0.95rem;
 }
 
-/* ===== MAP ===== */
+/* MAP  */
 .map-container {
   margin-top: 35px;
   height: 340px;
@@ -263,7 +265,7 @@ h3::after {
   border: 0;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER  */
 footer {
   text-align: center;
   padding: 22px;
@@ -272,7 +274,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ===== MOBILE MENU ===== */
+/* MOBILE RESPONSIVENESS*/
 .menu-toggle {
   display: none;
   font-size: 1.5rem;
